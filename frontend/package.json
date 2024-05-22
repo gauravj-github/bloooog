@@ -1,0 +1,61 @@
+{
+  "name": "jayvachhani.com",
+  "proxy": "http://127.0.0.1:8000",
+  "description": "Personal Website v1",
+  "version": "1.0.0",
+  "author": "Jay Vachhani <jay.vachhani@outlook.com>",
+  "homepage": "https://jayvachhani.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheJayVachhani/jayvachhani.com"
+  },
+  "keywords": [
+    "react",
+    "material-ui"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@formcarry/react": "^1.0.2",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/styles": "^4.10.0",
+    "axios": "^0.21.4",
+    "clsx": "^1.1.1",
+    "gh-pages": "^3.1.0",
+    "react": "^17.0.1",
+    "react-anime": "^3.0.3",
+    "react-dom": "^17.0.1",
+    "react-facebook": "^9.0.12",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "4.0.0",
+    "react-typed": "^1.2.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "install-peers": "^1.0.3"
+  }
+}
